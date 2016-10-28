@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HWProtocolGame/ViewController.m"
-            timestampString = "499371522.672483"
+            timestampString = "499376575.849942"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "126"
-            endingLineNumber = "126"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
             landmarkName = "-fightButtonDidClicked:"
             landmarkType = "7">
          </BreakpointContent>
