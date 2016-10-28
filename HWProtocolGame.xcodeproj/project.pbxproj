@@ -7,22 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B4935CF1DC3D9E3006E45F2 /* Archer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4935CC1DC3D9E3006E45F2 /* Archer.m */; };
+		0B4935D01DC3D9E3006E45F2 /* Wizard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4935CE1DC3D9E3006E45F2 /* Wizard.m */; };
+		0B4935D21DC3DDED006E45F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B4935D11DC3DDED006E45F2 /* Main.storyboard */; };
+		0B4935D41DC3DF53006E45F2 /* dead.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0B4935D31DC3DF53006E45F2 /* dead.gif */; };
+		0BC811E91DC3D10F00E8D94B /* Warrior.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC811E81DC3D10F00E8D94B /* Warrior.m */; };
 		7C3F32B91DBD57A70094CB59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3F32B81DBD57A70094CB59 /* main.m */; };
 		7C3F32BC1DBD57A70094CB59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3F32BB1DBD57A70094CB59 /* AppDelegate.m */; };
 		7C3F32BF1DBD57A70094CB59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3F32BE1DBD57A70094CB59 /* ViewController.m */; };
-		7C3F32C21DBD57A70094CB59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3F32C01DBD57A70094CB59 /* Main.storyboard */; };
 		7C3F32C41DBD57A70094CB59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C3F32C31DBD57A70094CB59 /* Assets.xcassets */; };
 		7C3F32C71DBD57A70094CB59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3F32C51DBD57A70094CB59 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B4935CB1DC3D96F006E45F2 /* Archer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Archer.h; sourceTree = "<group>"; };
+		0B4935CC1DC3D9E3006E45F2 /* Archer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Archer.m; sourceTree = "<group>"; };
+		0B4935CD1DC3D9E3006E45F2 /* Wizard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wizard.h; sourceTree = "<group>"; };
+		0B4935CE1DC3D9E3006E45F2 /* Wizard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wizard.m; sourceTree = "<group>"; };
+		0B4935D11DC3DDED006E45F2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0B4935D31DC3DF53006E45F2 /* dead.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dead.gif; sourceTree = "<group>"; };
+		0BC811E61DC3CF6A00E8D94B /* UnitsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitsProtocol.h; sourceTree = "<group>"; };
+		0BC811E71DC3D10F00E8D94B /* Warrior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Warrior.h; sourceTree = "<group>"; };
+		0BC811E81DC3D10F00E8D94B /* Warrior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Warrior.m; sourceTree = "<group>"; };
 		7C3F32B41DBD57A70094CB59 /* HWProtocolGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWProtocolGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C3F32B81DBD57A70094CB59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7C3F32BA1DBD57A70094CB59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7C3F32BB1DBD57A70094CB59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7C3F32BD1DBD57A70094CB59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7C3F32BE1DBD57A70094CB59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7C3F32C11DBD57A70094CB59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C3F32C31DBD57A70094CB59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C3F32C61DBD57A70094CB59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C3F32C81DBD57A70094CB59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,6 +51,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BC811E51DC3CF4600E8D94B /* units */ = {
+			isa = PBXGroup;
+			children = (
+				0BC811E61DC3CF6A00E8D94B /* UnitsProtocol.h */,
+				0BC811E71DC3D10F00E8D94B /* Warrior.h */,
+				0B4935CB1DC3D96F006E45F2 /* Archer.h */,
+				0B4935CC1DC3D9E3006E45F2 /* Archer.m */,
+				0B4935CD1DC3D9E3006E45F2 /* Wizard.h */,
+				0B4935CE1DC3D9E3006E45F2 /* Wizard.m */,
+				0BC811E81DC3D10F00E8D94B /* Warrior.m */,
+			);
+			name = units;
+			sourceTree = "<group>";
+		};
 		7C3F32AB1DBD57A70094CB59 = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +84,12 @@
 		7C3F32B61DBD57A70094CB59 /* HWProtocolGame */ = {
 			isa = PBXGroup;
 			children = (
+				0BC811E51DC3CF4600E8D94B /* units */,
 				7C3F32BA1DBD57A70094CB59 /* AppDelegate.h */,
 				7C3F32BB1DBD57A70094CB59 /* AppDelegate.m */,
 				7C3F32BD1DBD57A70094CB59 /* ViewController.h */,
 				7C3F32BE1DBD57A70094CB59 /* ViewController.m */,
-				7C3F32C01DBD57A70094CB59 /* Main.storyboard */,
+				0B4935D11DC3DDED006E45F2 /* Main.storyboard */,
 				7C3F32C31DBD57A70094CB59 /* Assets.xcassets */,
 				7C3F32C51DBD57A70094CB59 /* LaunchScreen.storyboard */,
 				7C3F32C81DBD57A70094CB59 /* Info.plist */,
@@ -74,6 +101,7 @@
 		7C3F32B71DBD57A70094CB59 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0B4935D31DC3DF53006E45F2 /* dead.gif */,
 				7C3F32B81DBD57A70094CB59 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -137,9 +165,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B4935D21DC3DDED006E45F2 /* Main.storyboard in Resources */,
 				7C3F32C71DBD57A70094CB59 /* LaunchScreen.storyboard in Resources */,
+				0B4935D41DC3DF53006E45F2 /* dead.gif in Resources */,
 				7C3F32C41DBD57A70094CB59 /* Assets.xcassets in Resources */,
-				7C3F32C21DBD57A70094CB59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,21 +181,16 @@
 			files = (
 				7C3F32BF1DBD57A70094CB59 /* ViewController.m in Sources */,
 				7C3F32BC1DBD57A70094CB59 /* AppDelegate.m in Sources */,
+				0BC811E91DC3D10F00E8D94B /* Warrior.m in Sources */,
 				7C3F32B91DBD57A70094CB59 /* main.m in Sources */,
+				0B4935D01DC3D9E3006E45F2 /* Wizard.m in Sources */,
+				0B4935CF1DC3D9E3006E45F2 /* Archer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7C3F32C01DBD57A70094CB59 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7C3F32C11DBD57A70094CB59 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7C3F32C51DBD57A70094CB59 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -309,6 +333,7 @@
 				7C3F32CD1DBD57A70094CB59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
