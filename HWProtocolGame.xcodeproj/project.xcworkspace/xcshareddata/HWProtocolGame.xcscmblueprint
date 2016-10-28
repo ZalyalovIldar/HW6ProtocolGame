@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D47926DC4377B38E52841D0BDEB02431D0BADC67",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "34053DBB485C39AD11D56AF9BD424B9869443B88" : 9223372036854775807,
+    "D47926DC4377B38E52841D0BDEB02431D0BADC67" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F8B511B1-6B94-4B64-8D76-6BAF8D0F0302",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "34053DBB485C39AD11D56AF9BD424B9869443B88" : "..",
+    "D47926DC4377B38E52841D0BDEB02431D0BADC67" : "HW6ProtocolGame\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HWProtocolGame",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HWProtocolGame.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/spiridonova_11-503\/spiridonova_11-503.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "34053DBB485C39AD11D56AF9BD424B9869443B88"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nataliSM\/HW6ProtocolGame.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D47926DC4377B38E52841D0BDEB02431D0BADC67"
+    }
+  ]
+}

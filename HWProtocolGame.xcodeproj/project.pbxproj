@@ -13,6 +13,14 @@
 		7C3F32C21DBD57A70094CB59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3F32C01DBD57A70094CB59 /* Main.storyboard */; };
 		7C3F32C41DBD57A70094CB59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C3F32C31DBD57A70094CB59 /* Assets.xcassets */; };
 		7C3F32C71DBD57A70094CB59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3F32C51DBD57A70094CB59 /* LaunchScreen.storyboard */; };
+		E13290281DBE741E00B6B71D /* Archer.m in Sources */ = {isa = PBXBuildFile; fileRef = E13290271DBE741E00B6B71D /* Archer.m */; };
+		E132902B1DBE743F00B6B71D /* Wizard.m in Sources */ = {isa = PBXBuildFile; fileRef = E132902A1DBE743F00B6B71D /* Wizard.m */; };
+		E132902E1DBE746000B6B71D /* Warrior.m in Sources */ = {isa = PBXBuildFile; fileRef = E132902D1DBE746000B6B71D /* Warrior.m */; };
+		E13290341DBF99BC00B6B71D /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = E13290331DBF99BC00B6B71D /* Character.m */; };
+		E13290391DC07CA700B6B71D /* Warrior.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E13290371DC07CA700B6B71D /* Warrior.jpg */; };
+		E132903A1DC07CA700B6B71D /* Archer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E13290381DC07CA700B6B71D /* Archer.jpg */; };
+		E132903C1DC07D8F00B6B71D /* Wizard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E132903B1DC07D8F00B6B71D /* Wizard.jpg */; };
+		E132903F1DC286B400B6B71D /* dead.gif in Resources */ = {isa = PBXBuildFile; fileRef = E132903E1DC286B400B6B71D /* dead.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,19 @@
 		7C3F32C31DBD57A70094CB59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C3F32C61DBD57A70094CB59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C3F32C81DBD57A70094CB59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E13290261DBE741E00B6B71D /* Archer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Archer.h; sourceTree = "<group>"; };
+		E13290271DBE741E00B6B71D /* Archer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Archer.m; sourceTree = "<group>"; };
+		E13290291DBE743F00B6B71D /* Wizard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wizard.h; sourceTree = "<group>"; };
+		E132902A1DBE743F00B6B71D /* Wizard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wizard.m; sourceTree = "<group>"; };
+		E132902C1DBE746000B6B71D /* Warrior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Warrior.h; sourceTree = "<group>"; };
+		E132902D1DBE746000B6B71D /* Warrior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Warrior.m; sourceTree = "<group>"; };
+		E13290301DBE79E200B6B71D /* UnitProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitProtocol.h; sourceTree = "<group>"; };
+		E13290321DBF99BC00B6B71D /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		E13290331DBF99BC00B6B71D /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		E13290371DC07CA700B6B71D /* Warrior.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Warrior.jpg; sourceTree = "<group>"; };
+		E13290381DC07CA700B6B71D /* Archer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Archer.jpg; sourceTree = "<group>"; };
+		E132903B1DC07D8F00B6B71D /* Wizard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wizard.jpg; sourceTree = "<group>"; };
+		E132903E1DC286B400B6B71D /* dead.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dead.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,9 @@
 		7C3F32B61DBD57A70094CB59 /* HWProtocolGame */ = {
 			isa = PBXGroup;
 			children = (
+				E132903D1DC0807500B6B71D /* Images */,
+				E13290311DBE79F400B6B71D /* Protocols */,
+				E132902F1DBE747800B6B71D /* Models */,
 				7C3F32BA1DBD57A70094CB59 /* AppDelegate.h */,
 				7C3F32BB1DBD57A70094CB59 /* AppDelegate.m */,
 				7C3F32BD1DBD57A70094CB59 /* ViewController.h */,
@@ -77,6 +101,56 @@
 				7C3F32B81DBD57A70094CB59 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E132902F1DBE747800B6B71D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E13290361DBF9F1F00B6B71D /* CharactersModels */,
+				E13290351DBF9F1000B6B71D /* MainModel */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E13290311DBE79F400B6B71D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E13290301DBE79E200B6B71D /* UnitProtocol.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		E13290351DBF9F1000B6B71D /* MainModel */ = {
+			isa = PBXGroup;
+			children = (
+				E13290321DBF99BC00B6B71D /* Character.h */,
+				E13290331DBF99BC00B6B71D /* Character.m */,
+			);
+			name = MainModel;
+			sourceTree = "<group>";
+		};
+		E13290361DBF9F1F00B6B71D /* CharactersModels */ = {
+			isa = PBXGroup;
+			children = (
+				E13290261DBE741E00B6B71D /* Archer.h */,
+				E13290271DBE741E00B6B71D /* Archer.m */,
+				E13290291DBE743F00B6B71D /* Wizard.h */,
+				E132902A1DBE743F00B6B71D /* Wizard.m */,
+				E132902C1DBE746000B6B71D /* Warrior.h */,
+				E132902D1DBE746000B6B71D /* Warrior.m */,
+			);
+			name = CharactersModels;
+			sourceTree = "<group>";
+		};
+		E132903D1DC0807500B6B71D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E132903E1DC286B400B6B71D /* dead.gif */,
+				E13290371DC07CA700B6B71D /* Warrior.jpg */,
+				E13290381DC07CA700B6B71D /* Archer.jpg */,
+				E132903B1DC07D8F00B6B71D /* Wizard.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +184,7 @@
 				TargetAttributes = {
 					7C3F32B31DBD57A70094CB59 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 253FZ393HL;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,9 +212,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E132903C1DC07D8F00B6B71D /* Wizard.jpg in Resources */,
 				7C3F32C71DBD57A70094CB59 /* LaunchScreen.storyboard in Resources */,
 				7C3F32C41DBD57A70094CB59 /* Assets.xcassets in Resources */,
+				E132903A1DC07CA700B6B71D /* Archer.jpg in Resources */,
+				E132903F1DC286B400B6B71D /* dead.gif in Resources */,
 				7C3F32C21DBD57A70094CB59 /* Main.storyboard in Resources */,
+				E13290391DC07CA700B6B71D /* Warrior.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E132902E1DBE746000B6B71D /* Warrior.m in Sources */,
+				E13290341DBF99BC00B6B71D /* Character.m in Sources */,
+				E132902B1DBE743F00B6B71D /* Wizard.m in Sources */,
+				E13290281DBE741E00B6B71D /* Archer.m in Sources */,
 				7C3F32BF1DBD57A70094CB59 /* ViewController.m in Sources */,
 				7C3F32BC1DBD57A70094CB59 /* AppDelegate.m in Sources */,
 				7C3F32B91DBD57A70094CB59 /* main.m in Sources */,
@@ -272,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 253FZ393HL;
 				INFOPLIST_FILE = HWProtocolGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.itis.HWProtocolGame;
@@ -283,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 253FZ393HL;
 				INFOPLIST_FILE = HWProtocolGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.itis.HWProtocolGame;
@@ -309,6 +394,7 @@
 				7C3F32CD1DBD57A70094CB59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
