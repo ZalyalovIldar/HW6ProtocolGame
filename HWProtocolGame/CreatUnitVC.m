@@ -89,27 +89,27 @@
     BattleVC *vc = [segue destinationViewController];
     if(_bonusSwitch.isOn){
         if(_myArcherSwitch.isOn){
-            vc.myArcher = [[Archer alloc]initWithAnimal];
+            vc.myUnit = [[Archer alloc]initWithAnimal:10];
         }else if(_myWarriorSwitch.isOn){
-            vc.myWarrior = [[Warrior alloc]initWithSheld];
+            vc.myUnit = [[Warrior alloc]initWithSheld:25];
         }else if(_myWizardSwitch.isOn){
-            vc.myWizard = [[Wizard alloc]initWithTotem];
+            vc.myUnit= [[Wizard alloc]initWithTotem:20];
         }
     }else{
         if(_myArcherSwitch.isOn){
-            vc.myArcher = [[Archer alloc]init];
+            vc.myUnit = [[Archer alloc]init];
         }else if(_myWarriorSwitch.isOn){
-            vc.myWarrior = [[Warrior alloc]init];
+            vc.myUnit = [[Warrior alloc]init];
         }else if(_myWizardSwitch.isOn){
-            vc.myWizard = [[Wizard alloc]init];
+            vc.myUnit = [[Wizard alloc]init];
         }
     }
     if(_enemyArcherSwitch.isOn){
-        vc.enemyArcher = [[Archer alloc]init];
+        vc.enemyUnit = [[Archer alloc]init];
     }else if(_enemyWizardSwitch.isOn){
-        vc.enemyWizard = [[Wizard alloc]init];
+        vc.enemyUnit = [[Wizard alloc]init];
     }else if(_enemyWarriorSwitch.isOn){
-        vc.enemyWarrior = [[Warrior alloc]init];
+        vc.enemyUnit = [[Warrior alloc]init];
     }
 }
 

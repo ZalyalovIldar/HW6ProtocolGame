@@ -11,12 +11,14 @@
 @protocol Unit <NSObject>
 
 @required
+-(instancetype)init;
 @property(nonatomic)int health;
+@property(nonatomic)int attack;
 @property(nonatomic)int armor;
+@property(strong, nonatomic)NSString *name;
 -(void)attackedBy:(id)Unit;
 @optional
-@property(nonatomic)BOOL sheald;
-@property(nonatomic)BOOL animal;
-@property(nonatomic)BOOL totem;
-
+-(instancetype)initWithTotem:(int)bonusTotem;
+-(instancetype)initWithSheld:(int)bonusSheald;
+-(instancetype)initWithAnimal:(int)bonusAnimal;
 @end

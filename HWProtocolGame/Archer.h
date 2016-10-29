@@ -11,7 +11,4 @@
 
 @interface Archer : NSObject<Unit>
 
--(instancetype)init;
--(instancetype)initWithAnimal;
-
 @end

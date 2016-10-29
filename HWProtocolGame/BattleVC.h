@@ -13,11 +13,7 @@
 
 @interface BattleVC : UIViewController
 
-@property(strong, nonatomic) Wizard *myWizard;
-@property(strong, nonatomic) Wizard *enemyWizard;
-@property(strong, nonatomic) Warrior *myWarrior;
-@property(strong, nonatomic) Warrior *enemyWarrior;
-@property(strong, nonatomic) Archer *myArcher;
-@property(strong, nonatomic) Archer *enemyArcher;
+@property(strong,nonatomic)id myUnit;
+@property(strong, nonatomic)id enemyUnit;
 
 @end

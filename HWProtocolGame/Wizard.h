@@ -11,7 +11,4 @@
 
 @interface Wizard : NSObject <Unit>
 
--(instancetype)init;
--(instancetype)initWithTotem;
-
 @end

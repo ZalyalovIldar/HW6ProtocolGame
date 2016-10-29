@@ -11,60 +11,48 @@
 #import "Archer.h"
 
 @implementation Wizard
+@synthesize name = _name;
 @synthesize armor=_armor;
 @synthesize health = _health;
-@synthesize totem = _totem;
+@synthesize attack = _attack;
 
 -(instancetype)init{
     self = [super init];
     if (self) {
-        _armor = 100;
+        _armor = 20;
+        _name = @"Маг";
         _health = 100;
-        _totem = NO;
+        _attack = 22;
     }
     return self;
 }
 
--(instancetype)initWithTotem{
+-(instancetype)initWithTotem:(int)bonusTotem{
     self=[super init];
     if(self){
-        _armor = 100;
+        _name = @"Маг";
+        _armor = 20+bonusTotem;
         _health = 100;
-        _totem = YES;
+        _attack = 22;
     }
     return self;
 }
 
 -(void)attackedBy:(id)Unit{
     if ([Unit isKindOfClass:[Archer class]]||[Unit isKindOfClass:[Wizard class]]||[Unit isKindOfClass:[Warrior class]]) {
-        if (_totem==YES) {
-            int damage = 1+arc4random()%4;
-            if(_armor<damage){
-                if(_armor==0){
-                    _health = _health - damage;
-                }
-                else{
-                    damage = damage - _armor;
-                    _health = _health - damage;
-                }
-            }else{
-                _armor = _armor - damage;
+        int unitDamage = [Unit attack];
+        int damage = (unitDamage-4)+arc4random()%(unitDamage-(unitDamage-4));
+        if(_armor<damage){
+            if (_armor==0) {
+                _health = _health - damage;
             }
-        }
-        else{
-            int damage = 5+arc4random()%5;
-            if(_armor<damage){
-                if (_armor==0) {
-                    _health = _health - damage;
-                }
-                else {
-                    damage = damage - _armor;
-                    _armor = 0;
-                    _health = _health - damage;
-                }
-            }else{
-                _armor = _armor - damage;
+            else {
+                damage = damage - _armor;
+                _armor = 0;
+                _health = _health - damage;
             }
+        }else{
+            _armor = _armor - damage;
         }
     }
     else{

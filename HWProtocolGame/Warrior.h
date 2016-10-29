@@ -11,7 +11,4 @@
 
 @interface Warrior : NSObject <Unit>
 
--(instancetype)init;
--(instancetype)initWithSheld;
-
 @end
