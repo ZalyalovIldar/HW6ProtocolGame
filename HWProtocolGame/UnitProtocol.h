@@ -11,6 +11,8 @@
 typedef NS_ENUM(NSUInteger, kUnitStatus) {
     kUnitStatusAlive = 0,
     kUnitStatusDead  = 1,
+     kUnitStatusWeak  = 2,
+    
 };
 
 @protocol UnitProtocol<NSObject>

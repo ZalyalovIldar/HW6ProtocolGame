@@ -123,14 +123,21 @@ typedef NS_ENUM(NSUInteger, kBlueButtonTagName) {
         {
             NSString *message = [NSString stringWithFormat:@"Your character %@ dead!", NSStringFromClass(enemy.class)];
             [blockSelf showAlertWithTitle:@"Fight is over!" andMessage:message];
+             blockSelf.selectedBlueButton.enabled = NO;
             
-        }else
+        }
+        if (status == kUnitStatusAlive)
         {
             
             [blockSelf showAlertWithTitle:@"Fight done" andMessage:[NSString stringWithFormat:@"Your health after fight : %ld", enemy.health]];
         }
+        if (status == kUnitStatusWeak){
+            NSString *message = [NSString stringWithFormat:@"Your character %@ don't have power!", NSStringFromClass(enemy.class)];
+            [blockSelf showAlertWithTitle:@"You can't fight!" andMessage:message];
+           
+        }
         
-        blockSelf.selectedBlueButton.enabled = NO;
+        
         [blockSelf switchState:0 forRedButton:blockSelf.selectedRedButton];
         [blockSelf switchState:0 forBlueButton:blockSelf.selectedBlueButton];
         

@@ -30,6 +30,11 @@
     if (![enemy respondsToSelector:@selector(fight:andChangeParametersBlock:)]){
         return;
     }
+    if(!(self.strength > 0)){
+        changeParametersBlock(self, kUnitStatusWeak);
+        return;
+    }
+    
     enemy.health = (enemy.health + 0.05 * enemy.armor) - self.strength;
     if (enemy.health <= 0)
     {
