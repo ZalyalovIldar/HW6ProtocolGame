@@ -13,6 +13,14 @@
 		7C3F32C21DBD57A70094CB59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3F32C01DBD57A70094CB59 /* Main.storyboard */; };
 		7C3F32C41DBD57A70094CB59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C3F32C31DBD57A70094CB59 /* Assets.xcassets */; };
 		7C3F32C71DBD57A70094CB59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3F32C51DBD57A70094CB59 /* LaunchScreen.storyboard */; };
+		9953DB0A1DC3AB390055F04F /* PlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9953DB091DC3AB390055F04F /* PlayVC.m */; };
+		99CA79D71DC138B5003602D3 /* Ildar.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CA79D61DC138B5003602D3 /* Ildar.m */; };
+		99CA79DB1DC20630003602D3 /* Lenar.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CA79DA1DC20630003602D3 /* Lenar.m */; };
+		99CA79DE1DC20648003602D3 /* Ilyas.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CA79DD1DC20648003602D3 /* Ilyas.m */; };
+		99CA79E21DC322E2003602D3 /* PoLfTA7hElc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99CA79DF1DC322E2003602D3 /* PoLfTA7hElc.jpg */; };
+		99CA79E31DC322E2003602D3 /* Mm3MmPqyccY.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99CA79E01DC322E2003602D3 /* Mm3MmPqyccY.jpg */; };
+		99CA79E41DC322E2003602D3 /* _FhZGdVnjlU.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99CA79E11DC322E2003602D3 /* _FhZGdVnjlU.jpg */; };
+		99CA79E61DC335D2003602D3 /* Стальной_топор_(Skyrim).png in Resources */ = {isa = PBXBuildFile; fileRef = 99CA79E51DC335D2003602D3 /* Стальной_топор_(Skyrim).png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,19 @@
 		7C3F32C31DBD57A70094CB59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C3F32C61DBD57A70094CB59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C3F32C81DBD57A70094CB59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9953DB081DC3AB390055F04F /* PlayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayVC.h; sourceTree = "<group>"; };
+		9953DB091DC3AB390055F04F /* PlayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayVC.m; sourceTree = "<group>"; };
+		99CA79D51DC138B5003602D3 /* Ildar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ildar.h; sourceTree = "<group>"; };
+		99CA79D61DC138B5003602D3 /* Ildar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ildar.m; sourceTree = "<group>"; };
+		99CA79D81DC2049B003602D3 /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit.h; sourceTree = "<group>"; };
+		99CA79D91DC20630003602D3 /* Lenar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lenar.h; sourceTree = "<group>"; };
+		99CA79DA1DC20630003602D3 /* Lenar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lenar.m; sourceTree = "<group>"; };
+		99CA79DC1DC20648003602D3 /* Ilyas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ilyas.h; sourceTree = "<group>"; };
+		99CA79DD1DC20648003602D3 /* Ilyas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ilyas.m; sourceTree = "<group>"; };
+		99CA79DF1DC322E2003602D3 /* PoLfTA7hElc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = PoLfTA7hElc.jpg; path = ../../../../../Users/iikhsn/Downloads/PoLfTA7hElc.jpg; sourceTree = "<group>"; };
+		99CA79E01DC322E2003602D3 /* Mm3MmPqyccY.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Mm3MmPqyccY.jpg; path = ../../../../../Users/iikhsn/Downloads/Mm3MmPqyccY.jpg; sourceTree = "<group>"; };
+		99CA79E11DC322E2003602D3 /* _FhZGdVnjlU.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = _FhZGdVnjlU.jpg; path = ../../../../../Users/iikhsn/Downloads/_FhZGdVnjlU.jpg; sourceTree = "<group>"; };
+		99CA79E51DC335D2003602D3 /* Стальной_топор_(Skyrim).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Стальной_топор_(Skyrim).png"; path = "../../../../../Users/iikhsn/Desktop/Стальной_топор_(Skyrim).png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +79,8 @@
 		7C3F32B61DBD57A70094CB59 /* HWProtocolGame */ = {
 			isa = PBXGroup;
 			children = (
-				7C3F32BA1DBD57A70094CB59 /* AppDelegate.h */,
-				7C3F32BB1DBD57A70094CB59 /* AppDelegate.m */,
-				7C3F32BD1DBD57A70094CB59 /* ViewController.h */,
-				7C3F32BE1DBD57A70094CB59 /* ViewController.m */,
-				7C3F32C01DBD57A70094CB59 /* Main.storyboard */,
-				7C3F32C31DBD57A70094CB59 /* Assets.xcassets */,
-				7C3F32C51DBD57A70094CB59 /* LaunchScreen.storyboard */,
-				7C3F32C81DBD57A70094CB59 /* Info.plist */,
+				9953DB0B1DC3EAC90055F04F /* ViewControllers */,
+				99CA79D41DC13853003602D3 /* Units */,
 				7C3F32B71DBD57A70094CB59 /* Supporting Files */,
 			);
 			path = HWProtocolGame;
@@ -74,9 +89,44 @@
 		7C3F32B71DBD57A70094CB59 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				99CA79E51DC335D2003602D3 /* Стальной_топор_(Skyrim).png */,
+				99CA79DF1DC322E2003602D3 /* PoLfTA7hElc.jpg */,
+				99CA79E01DC322E2003602D3 /* Mm3MmPqyccY.jpg */,
+				99CA79E11DC322E2003602D3 /* _FhZGdVnjlU.jpg */,
+				7C3F32BA1DBD57A70094CB59 /* AppDelegate.h */,
+				7C3F32BB1DBD57A70094CB59 /* AppDelegate.m */,
+				7C3F32C31DBD57A70094CB59 /* Assets.xcassets */,
+				7C3F32C51DBD57A70094CB59 /* LaunchScreen.storyboard */,
+				7C3F32C81DBD57A70094CB59 /* Info.plist */,
 				7C3F32B81DBD57A70094CB59 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9953DB0B1DC3EAC90055F04F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7C3F32BD1DBD57A70094CB59 /* ViewController.h */,
+				7C3F32BE1DBD57A70094CB59 /* ViewController.m */,
+				9953DB081DC3AB390055F04F /* PlayVC.h */,
+				9953DB091DC3AB390055F04F /* PlayVC.m */,
+				7C3F32C01DBD57A70094CB59 /* Main.storyboard */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		99CA79D41DC13853003602D3 /* Units */ = {
+			isa = PBXGroup;
+			children = (
+				99CA79D81DC2049B003602D3 /* Unit.h */,
+				99CA79D51DC138B5003602D3 /* Ildar.h */,
+				99CA79D61DC138B5003602D3 /* Ildar.m */,
+				99CA79D91DC20630003602D3 /* Lenar.h */,
+				99CA79DA1DC20630003602D3 /* Lenar.m */,
+				99CA79DC1DC20648003602D3 /* Ilyas.h */,
+				99CA79DD1DC20648003602D3 /* Ilyas.m */,
+			);
+			name = Units;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +188,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C3F32C71DBD57A70094CB59 /* LaunchScreen.storyboard in Resources */,
+				99CA79E31DC322E2003602D3 /* Mm3MmPqyccY.jpg in Resources */,
 				7C3F32C41DBD57A70094CB59 /* Assets.xcassets in Resources */,
+				99CA79E41DC322E2003602D3 /* _FhZGdVnjlU.jpg in Resources */,
+				99CA79E61DC335D2003602D3 /* Стальной_топор_(Skyrim).png in Resources */,
 				7C3F32C21DBD57A70094CB59 /* Main.storyboard in Resources */,
+				99CA79E21DC322E2003602D3 /* PoLfTA7hElc.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +204,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99CA79DE1DC20648003602D3 /* Ilyas.m in Sources */,
+				9953DB0A1DC3AB390055F04F /* PlayVC.m in Sources */,
 				7C3F32BF1DBD57A70094CB59 /* ViewController.m in Sources */,
+				99CA79DB1DC20630003602D3 /* Lenar.m in Sources */,
 				7C3F32BC1DBD57A70094CB59 /* AppDelegate.m in Sources */,
+				99CA79D71DC138B5003602D3 /* Ildar.m in Sources */,
 				7C3F32B91DBD57A70094CB59 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +367,7 @@
 				7C3F32CD1DBD57A70094CB59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
