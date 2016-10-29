@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		7C3F32B91DBD57A70094CB59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3F32B81DBD57A70094CB59 /* main.m */; };
 		7C3F32BC1DBD57A70094CB59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3F32BB1DBD57A70094CB59 /* AppDelegate.m */; };
-		7C3F32BF1DBD57A70094CB59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3F32BE1DBD57A70094CB59 /* ViewController.m */; };
 		7C3F32C21DBD57A70094CB59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3F32C01DBD57A70094CB59 /* Main.storyboard */; };
 		7C3F32C41DBD57A70094CB59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C3F32C31DBD57A70094CB59 /* Assets.xcassets */; };
 		7C3F32C71DBD57A70094CB59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3F32C51DBD57A70094CB59 /* LaunchScreen.storyboard */; };
+		AE8F1F9E1DBFEA9600F9C9AE /* CreatUnitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8F1F9D1DBFEA9600F9C9AE /* CreatUnitVC.m */; };
+		AE8F1FA11DBFEAAC00F9C9AE /* BattleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8F1FA01DBFEAAC00F9C9AE /* BattleVC.m */; };
+		AECBC60E1DBE72AF00B6ADC7 /* Wizard.m in Sources */ = {isa = PBXBuildFile; fileRef = AECBC60D1DBE72AF00B6ADC7 /* Wizard.m */; };
+		AECBC6111DBE72C000B6ADC7 /* Warrior.m in Sources */ = {isa = PBXBuildFile; fileRef = AECBC6101DBE72C000B6ADC7 /* Warrior.m */; };
+		AECBC6141DBE72EA00B6ADC7 /* Archer.m in Sources */ = {isa = PBXBuildFile; fileRef = AECBC6131DBE72EA00B6ADC7 /* Archer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,21 @@
 		7C3F32B81DBD57A70094CB59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7C3F32BA1DBD57A70094CB59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7C3F32BB1DBD57A70094CB59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7C3F32BD1DBD57A70094CB59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7C3F32BE1DBD57A70094CB59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7C3F32C11DBD57A70094CB59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C3F32C31DBD57A70094CB59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C3F32C61DBD57A70094CB59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C3F32C81DBD57A70094CB59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8F1F9C1DBFEA9600F9C9AE /* CreatUnitVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatUnitVC.h; sourceTree = "<group>"; };
+		AE8F1F9D1DBFEA9600F9C9AE /* CreatUnitVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatUnitVC.m; sourceTree = "<group>"; };
+		AE8F1F9F1DBFEAAC00F9C9AE /* BattleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleVC.h; sourceTree = "<group>"; };
+		AE8F1FA01DBFEAAC00F9C9AE /* BattleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BattleVC.m; sourceTree = "<group>"; };
+		AECBC6021DBE545300B6ADC7 /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit.h; sourceTree = "<group>"; };
+		AECBC60C1DBE72AF00B6ADC7 /* Wizard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wizard.h; sourceTree = "<group>"; };
+		AECBC60D1DBE72AF00B6ADC7 /* Wizard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wizard.m; sourceTree = "<group>"; };
+		AECBC60F1DBE72C000B6ADC7 /* Warrior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Warrior.h; sourceTree = "<group>"; };
+		AECBC6101DBE72C000B6ADC7 /* Warrior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Warrior.m; sourceTree = "<group>"; };
+		AECBC6121DBE72EA00B6ADC7 /* Archer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Archer.h; sourceTree = "<group>"; };
+		AECBC6131DBE72EA00B6ADC7 /* Archer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Archer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +71,9 @@
 		7C3F32B61DBD57A70094CB59 /* HWProtocolGame */ = {
 			isa = PBXGroup;
 			children = (
-				7C3F32BA1DBD57A70094CB59 /* AppDelegate.h */,
-				7C3F32BB1DBD57A70094CB59 /* AppDelegate.m */,
-				7C3F32BD1DBD57A70094CB59 /* ViewController.h */,
-				7C3F32BE1DBD57A70094CB59 /* ViewController.m */,
-				7C3F32C01DBD57A70094CB59 /* Main.storyboard */,
-				7C3F32C31DBD57A70094CB59 /* Assets.xcassets */,
-				7C3F32C51DBD57A70094CB59 /* LaunchScreen.storyboard */,
-				7C3F32C81DBD57A70094CB59 /* Info.plist */,
+				AE46A8381DBDEFD00091B6CA /* Controller */,
+				AE46A8371DBDEF980091B6CA /* View */,
+				AE46A8361DBDEF8C0091B6CA /* Model */,
 				7C3F32B71DBD57A70094CB59 /* Supporting Files */,
 			);
 			path = HWProtocolGame;
@@ -74,9 +82,47 @@
 		7C3F32B71DBD57A70094CB59 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7C3F32BA1DBD57A70094CB59 /* AppDelegate.h */,
+				7C3F32BB1DBD57A70094CB59 /* AppDelegate.m */,
+				7C3F32C31DBD57A70094CB59 /* Assets.xcassets */,
+				7C3F32C51DBD57A70094CB59 /* LaunchScreen.storyboard */,
+				7C3F32C81DBD57A70094CB59 /* Info.plist */,
 				7C3F32B81DBD57A70094CB59 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE46A8361DBDEF8C0091B6CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AECBC6021DBE545300B6ADC7 /* Unit.h */,
+				AECBC60C1DBE72AF00B6ADC7 /* Wizard.h */,
+				AECBC60D1DBE72AF00B6ADC7 /* Wizard.m */,
+				AECBC60F1DBE72C000B6ADC7 /* Warrior.h */,
+				AECBC6101DBE72C000B6ADC7 /* Warrior.m */,
+				AECBC6121DBE72EA00B6ADC7 /* Archer.h */,
+				AECBC6131DBE72EA00B6ADC7 /* Archer.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AE46A8371DBDEF980091B6CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7C3F32C01DBD57A70094CB59 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AE46A8381DBDEFD00091B6CA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE8F1F9C1DBFEA9600F9C9AE /* CreatUnitVC.h */,
+				AE8F1F9D1DBFEA9600F9C9AE /* CreatUnitVC.m */,
+				AE8F1F9F1DBFEAAC00F9C9AE /* BattleVC.h */,
+				AE8F1FA01DBFEAAC00F9C9AE /* BattleVC.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +196,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C3F32BF1DBD57A70094CB59 /* ViewController.m in Sources */,
+				AE8F1F9E1DBFEA9600F9C9AE /* CreatUnitVC.m in Sources */,
+				AECBC60E1DBE72AF00B6ADC7 /* Wizard.m in Sources */,
+				AECBC6111DBE72C000B6ADC7 /* Warrior.m in Sources */,
 				7C3F32BC1DBD57A70094CB59 /* AppDelegate.m in Sources */,
+				AECBC6141DBE72EA00B6ADC7 /* Archer.m in Sources */,
 				7C3F32B91DBD57A70094CB59 /* main.m in Sources */,
+				AE8F1FA11DBFEAAC00F9C9AE /* BattleVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +359,7 @@
 				7C3F32CD1DBD57A70094CB59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
