@@ -32,32 +32,32 @@
         if(_enemyArcher!=NULL){
             [_enemyArcher attackedBy:_myArcher];
             [_myArcher attackedBy:_enemyArcher];
-            message = [NSString stringWithFormat:@"Противник \n Health:%i Armor:%i \n Mой боец \n Health:%i Armor:%i",_enemyArcher.health, _enemyArcher.armor, _myArcher.health, _myArcher.armor];
+            message = [NSString stringWithFormat:@"Лучник противника  \n Health:%i Armor:%i \n Mой лучник \n Health:%i Armor:%i",_enemyArcher.health, _enemyArcher.armor, _myArcher.health, _myArcher.armor];
             if(_enemyArcher.health<=0){
-                winMessage = @"Убит лучник";
+                winMessage = @"Твой лучник  убли лучника противника";
             }
             if(_myArcher.health <= 0){
-                loseMessage = @"Ты убит лучником";
+                loseMessage = @"Лучник противника убил твоего лучника";
             }
         }else if(_enemyWarrior!=NULL){
             [_enemyWarrior attackedBy:_myArcher];
             [_myArcher attackedBy:_enemyWarrior];
-            message = [NSString stringWithFormat:@"Противник \n Health:%i Armor:%i \n Мой боец \n Health:%i Armor:%i",_enemyWarrior.health, _enemyWarrior.armor, _myArcher.health, _myArcher.armor];
+            message = [NSString stringWithFormat:@"Воин противника \n Health:%i Armor:%i \n Мой лучник \n Health:%i Armor:%i",_enemyWarrior.health, _enemyWarrior.armor, _myArcher.health, _myArcher.armor];
             if(_enemyWarrior.health<=0){
-                winMessage = @"Убит воин";
+                winMessage = @"Твой лучник убил воина противника";
             }
             if(_myArcher.health<=0){
-                loseMessage = @"Ты убит воином";
+                loseMessage = @"Воин противника убил твого лучника";
             }
         }else if(_enemyWizard!=NULL){
             [_enemyWizard attackedBy:_myArcher];
             [_myArcher attackedBy:_enemyWizard];
-            message = [NSString stringWithFormat:@"Противник \n Health:%i Armor:%i \n Мой боец \n Health:%i Armor:%i",_enemyWizard.health, _enemyWizard.armor, _myArcher.health, _myArcher.armor];
+            message = [NSString stringWithFormat:@"Маг противника \n Health:%i Armor:%i \n Мой лучника \n Health:%i Armor:%i",_enemyWizard.health, _enemyWizard.armor, _myArcher.health, _myArcher.armor];
             if(_enemyWizard.health<=0){
-                winMessage = @"Убит маг";
+                winMessage = @"Твой лучник убил мага противника";
             }
             if(_myArcher.health<=0){
-                loseMessage = @"Ты убит магом";
+                loseMessage = @"Маг противника убил твоего лучника";
             }
         }
     }
@@ -65,34 +65,34 @@
         if(_enemyArcher!=NULL){
             [_enemyArcher attackedBy:_myWarrior];
             [_myWarrior attackedBy:_enemyArcher];
-            message = [NSString stringWithFormat:@"Противник \n Health:%i Armor:%i \n Мой боец \n Health:%i Armor:%i",_enemyArcher.health, _enemyArcher.armor, _myWarrior.health, _myWarrior.armor];
+            message = [NSString stringWithFormat:@"Лучник противника \n Health:%i Armor:%i \n Мой воин \n Health:%i Armor:%i",_enemyArcher.health, _enemyArcher.armor, _myWarrior.health, _myWarrior.armor];
             NSLog(@"воин бъет лучника");
             if(_enemyArcher.health<=0){
-                winMessage = @"Убит лучник";
+                winMessage = @"Твой воин убил лучника противника";
             }
             if(_myWarrior.health<=0){
-                loseMessage = @"Ты убит лучником";
+                loseMessage = @"Воин противника убил твоего лучника";
             }
         }else if(_enemyWarrior!=NULL){
             [_enemyWarrior attackedBy:_myWarrior];
             [_myWarrior attackedBy:_enemyWarrior];
-            message = [NSString stringWithFormat:@"Противник \n Health:%i Armor:%i \n Мой боец \n Health:%i Armor:%i",_enemyWarrior.health, _enemyWarrior.armor, _myWarrior.health, _myWarrior.armor];
+            message = [NSString stringWithFormat:@"Воин противника \n Health:%i Armor:%i \n Мой воин \n Health:%i Armor:%i",_enemyWarrior.health, _enemyWarrior.armor, _myWarrior.health, _myWarrior.armor];
             NSLog(@"воин бъет воин");
             if(_enemyWarrior.health<=0){
-                winMessage = @"Убит воин";
+                winMessage = @"Твой воин убил воина противника";
             }
             if(_myWarrior.health<=0){
-                loseMessage = @"Ты убит воином";
+                loseMessage = @"Воин противника убил твоего воина";
             }
         }else if(_enemyWizard!=NULL){
             [_enemyWizard attackedBy:_myWarrior];
             [_myWarrior attackedBy:_enemyWizard];
-            message = [NSString stringWithFormat:@"Противник \n Health:%i Armor:%i \n Мой боец \n Health:%i Armor:%i",_enemyWizard.health, _enemyWizard.armor, _myWarrior.health, _myWarrior.armor];
+            message = [NSString stringWithFormat:@"Маг протиника \n Health:%i Armor:%i \n Мой воин \n Health:%i Armor:%i",_enemyWizard.health, _enemyWizard.armor, _myWarrior.health, _myWarrior.armor];
             if(_enemyWizard.health<=0){
-                winMessage = @"Убит маг";
+                winMessage = @"Твой воин убил мага протиника";
             }
             if(_myWarrior.health<=0){
-                loseMessage = @"Ты убит магом";
+                loseMessage = @"Маг противника убил твоего воина";
             }
         }
     }
@@ -100,35 +100,35 @@
         if(_enemyArcher!=NULL){
             [_enemyArcher attackedBy:_myWizard];
             [_myWizard attackedBy:_enemyArcher];
-            message = [NSString stringWithFormat:@"Противник \n Health:%i Armor:%i \n Мой боец \n Health:%i Armor:%i",_enemyArcher.health, _enemyArcher.armor, _myWizard.health, _myWizard.armor];
+            message = [NSString stringWithFormat:@"Лучник противника \n Health:%i Armor:%i \n Мой маг \n Health:%i Armor:%i",_enemyArcher.health, _enemyArcher.armor, _myWizard.health, _myWizard.armor];
             NSLog(@"маг бъет лучника");
             if(_enemyArcher.health<=0){
-                winMessage = @"Убит лучник";
+                winMessage = @"Твой маг убил лучника противника";
             }
             if(_myWizard.health<=0){
-                loseMessage = @"Ты убит лучником";
+                loseMessage = @"Лучник противника убил твоего мага";
             }
         }else if(_enemyWarrior!=NULL){
             [_enemyWarrior attackedBy:_myWizard];
             [_myWizard attackedBy:_enemyWarrior];
-            message = [NSString stringWithFormat:@"Противник \n Health:%i Armor:%i \n Мой боец \n Health:%i Armor:%i",_enemyWarrior.health, _enemyWarrior.armor, _myWizard.health, _myWizard.armor];
+            message = [NSString stringWithFormat:@"Воин противника \n Health:%i Armor:%i \n Мой маг \n Health:%i Armor:%i",_enemyWarrior.health, _enemyWarrior.armor, _myWizard.health, _myWizard.armor];
             NSLog(@"маг бъет воина");
             if(_enemyWarrior.health<=0){
-                winMessage = @"Убит воин";
+                winMessage = @"Твой маг убил воина противника";
             }
             if(_myWizard.health<=0){
-                loseMessage = @"Ты убит воином";
+                loseMessage = @"Воин противника убил твоего мага";
             }
         }else if(_enemyWizard!=NULL){
             [_enemyWizard attackedBy:_myWizard];
             [_myWizard attackedBy:_enemyWizard];
-            message = [NSString stringWithFormat:@"Противник \n Health:%i Armor:%i \n Мой боец \n Health:%i Armor:%i",_enemyWizard.health, _enemyWizard.armor, _myWizard.health, _myWizard.armor];
+            message = [NSString stringWithFormat:@"Маг противника \n Health:%i Armor:%i \n Мой маг \n Health:%i Armor:%i",_enemyWizard.health, _enemyWizard.armor, _myWizard.health, _myWizard.armor];
             NSLog(@"маг бъет маг");
             if(_enemyWizard.health<=0){
-                winMessage = @"Убит маг";
+                winMessage = @"Твой маг убил мага противника";
             }
             if(_myWizard.health<=0){
-                loseMessage = @"Ты убит магом";
+                loseMessage = @"Маг противника убил твоего мага";
             }
         }
     }
