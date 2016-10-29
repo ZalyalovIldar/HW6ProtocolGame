@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B1AD0751DC3AD0F00A21E72 /* Warrior.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1AD0741DC3AD0F00A21E72 /* Warrior.m */; };
+		3B1AD07B1DC3BD1E00A21E72 /* Mage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1AD07A1DC3BD1E00A21E72 /* Mage.m */; };
+		3B1AD07E1DC3BD7E00A21E72 /* Archer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1AD07D1DC3BD7E00A21E72 /* Archer.m */; };
+		3B1D661F1DC43DFD00F3B75A /* Archer.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B1D661E1DC43DFD00F3B75A /* Archer.png */; };
+		3B1D66221DC43E4D00F3B75A /* AC3L_-_Warrior.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B1D66201DC43E4D00F3B75A /* AC3L_-_Warrior.png */; };
+		3B1D66231DC43E4D00F3B75A /* Arch_Mage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B1D66211DC43E4D00F3B75A /* Arch_Mage.png */; };
 		7C3F32B91DBD57A70094CB59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3F32B81DBD57A70094CB59 /* main.m */; };
 		7C3F32BC1DBD57A70094CB59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3F32BB1DBD57A70094CB59 /* AppDelegate.m */; };
 		7C3F32BF1DBD57A70094CB59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3F32BE1DBD57A70094CB59 /* ViewController.m */; };
@@ -16,6 +22,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B1AD0721DC3A70000A21E72 /* UnitProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnitProtocol.h; path = ../UnitProtocol.h; sourceTree = "<group>"; };
+		3B1AD0731DC3AD0F00A21E72 /* Warrior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Warrior.h; sourceTree = "<group>"; };
+		3B1AD0741DC3AD0F00A21E72 /* Warrior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Warrior.m; sourceTree = "<group>"; };
+		3B1AD0791DC3BD1E00A21E72 /* Mage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mage.h; sourceTree = "<group>"; };
+		3B1AD07A1DC3BD1E00A21E72 /* Mage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mage.m; sourceTree = "<group>"; };
+		3B1AD07C1DC3BD7E00A21E72 /* Archer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Archer.h; sourceTree = "<group>"; };
+		3B1AD07D1DC3BD7E00A21E72 /* Archer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Archer.m; sourceTree = "<group>"; };
+		3B1D661E1DC43DFD00F3B75A /* Archer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Archer.png; path = ../../../../Downloads/Archer.png; sourceTree = "<group>"; };
+		3B1D66201DC43E4D00F3B75A /* AC3L_-_Warrior.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AC3L_-_Warrior.png"; path = "../../../../Downloads/AC3L_-_Warrior.png"; sourceTree = "<group>"; };
+		3B1D66211DC43E4D00F3B75A /* Arch_Mage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Arch_Mage.png; path = ../../../../Downloads/Arch_Mage.png; sourceTree = "<group>"; };
 		7C3F32B41DBD57A70094CB59 /* HWProtocolGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWProtocolGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C3F32B81DBD57A70094CB59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7C3F32BA1DBD57A70094CB59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +74,16 @@
 		7C3F32B61DBD57A70094CB59 /* HWProtocolGame */ = {
 			isa = PBXGroup;
 			children = (
+				3B1D66201DC43E4D00F3B75A /* AC3L_-_Warrior.png */,
+				3B1D66211DC43E4D00F3B75A /* Arch_Mage.png */,
+				3B1D661E1DC43DFD00F3B75A /* Archer.png */,
+				3B1AD0721DC3A70000A21E72 /* UnitProtocol.h */,
+				3B1AD0731DC3AD0F00A21E72 /* Warrior.h */,
+				3B1AD0741DC3AD0F00A21E72 /* Warrior.m */,
+				3B1AD0791DC3BD1E00A21E72 /* Mage.h */,
+				3B1AD07A1DC3BD1E00A21E72 /* Mage.m */,
+				3B1AD07C1DC3BD7E00A21E72 /* Archer.h */,
+				3B1AD07D1DC3BD7E00A21E72 /* Archer.m */,
 				7C3F32BA1DBD57A70094CB59 /* AppDelegate.h */,
 				7C3F32BB1DBD57A70094CB59 /* AppDelegate.m */,
 				7C3F32BD1DBD57A70094CB59 /* ViewController.h */,
@@ -138,7 +164,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C3F32C71DBD57A70094CB59 /* LaunchScreen.storyboard in Resources */,
+				3B1D66231DC43E4D00F3B75A /* Arch_Mage.png in Resources */,
 				7C3F32C41DBD57A70094CB59 /* Assets.xcassets in Resources */,
+				3B1D661F1DC43DFD00F3B75A /* Archer.png in Resources */,
+				3B1D66221DC43E4D00F3B75A /* AC3L_-_Warrior.png in Resources */,
 				7C3F32C21DBD57A70094CB59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,8 +179,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B1AD07E1DC3BD7E00A21E72 /* Archer.m in Sources */,
 				7C3F32BF1DBD57A70094CB59 /* ViewController.m in Sources */,
 				7C3F32BC1DBD57A70094CB59 /* AppDelegate.m in Sources */,
+				3B1AD07B1DC3BD1E00A21E72 /* Mage.m in Sources */,
+				3B1AD0751DC3AD0F00A21E72 /* Warrior.m in Sources */,
 				7C3F32B91DBD57A70094CB59 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +341,7 @@
 				7C3F32CD1DBD57A70094CB59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

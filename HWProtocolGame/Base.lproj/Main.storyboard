@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +19,178 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Ih-la-DIy">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose character" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZeP-Mj-Pkz">
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="ZeP-Mj-Pkz" secondAttribute="height" multiplier="196:27" id="IBk-q3-ixE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red Team" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HHA-me-Ifx">
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue Team" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epF-Kk-Pg6">
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="ZeP-Mj-Pkz" firstAttribute="width" secondItem="7Ih-la-DIy" secondAttribute="height" multiplier="49:184" constant="165.90760869565219" id="1Pb-f7-g9H"/>
+                                    <constraint firstItem="ZeP-Mj-Pkz" firstAttribute="centerX" secondItem="7Ih-la-DIy" secondAttribute="centerX" id="Exl-AR-qXA"/>
+                                    <constraint firstItem="HHA-me-Ifx" firstAttribute="top" secondItem="ZeP-Mj-Pkz" secondAttribute="bottom" constant="20" id="PQm-6g-dib"/>
+                                    <constraint firstItem="HHA-me-Ifx" firstAttribute="leading" secondItem="7Ih-la-DIy" secondAttribute="leading" constant="20" id="Q31-EH-h7f"/>
+                                    <constraint firstAttribute="height" constant="113" id="W6S-fV-C6v"/>
+                                    <constraint firstItem="ZeP-Mj-Pkz" firstAttribute="top" secondItem="7Ih-la-DIy" secondAttribute="top" constant="10" id="ZCr-WR-EvA"/>
+                                    <constraint firstAttribute="trailing" secondItem="epF-Kk-Pg6" secondAttribute="trailing" constant="20" id="nyL-9V-5th"/>
+                                    <constraint firstItem="epF-Kk-Pg6" firstAttribute="top" secondItem="ZeP-Mj-Pkz" secondAttribute="bottom" constant="20" id="orf-G0-PTH"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZgK-aA-RYc">
+                                <subviews>
+                                    <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fo6-V9-z9V">
+                                        <color key="backgroundColor" red="1" green="0.47483779632775969" blue="0.57550577209493858" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="fo6-V9-z9V" secondAttribute="height" multiplier="1:1" id="uNN-hD-ReK"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.76472513090000005" green="0.28884497650000002" blue="0.68297156699999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" backgroundImage="AC3L_-_Warrior.png">
+                                            <color key="titleColor" red="1" green="0.2523624008" blue="0.24552360910000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="redButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hPZ-QT-SsZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBP-ZE-B7m">
+                                        <color key="backgroundColor" red="0.12699935792677575" green="0.56450149778130887" blue="0.89074770942408377" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="LBP-ZE-B7m" secondAttribute="height" multiplier="1:1" id="2TJ-hf-VHG"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="AC3L_-_Warrior.png">
+                                            <color key="titleColor" red="0.053861610591411591" green="0.89163738489151001" blue="0.90268021821975708" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <state key="disabled" image="dead.gif"/>
+                                        <connections>
+                                            <action selector="blueButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dkr-nS-1uw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y59-8q-Ted">
+                                        <color key="backgroundColor" red="0.1269993579" green="0.56450149780000003" blue="0.89074770940000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Y59-8q-Ted" secondAttribute="height" multiplier="1:1" id="HC6-Hl-NbQ"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="Arch_Mage.png">
+                                            <color key="titleColor" red="0.053861610591411591" green="0.89163738489151001" blue="0.90268021821975708" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <state key="disabled" image="dead.gif"/>
+                                        <connections>
+                                            <action selector="blueButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xYw-0G-pbr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" alpha="0.80000000000000004" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Beh-Z2-IXw">
+                                        <color key="backgroundColor" red="1" green="0.4748377963" blue="0.57550577209999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Beh-Z2-IXw" secondAttribute="height" multiplier="1:1" id="n6f-y6-nLZ"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.5" green="0.042015689005188206" blue="0.35240249263983547" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" backgroundImage="Archer.png">
+                                            <color key="titleShadowColor" red="0.76472513090000005" green="0.28884497650000002" blue="0.68297156699999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="redButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zgZ-vy-wqJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JGI-Z6-yQ2">
+                                        <state key="normal" title="Fight">
+                                            <color key="titleColor" red="0.67766420719999998" green="0.68090342619999999" blue="0.95421557739999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="fightButtonDidClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7bC-WJ-45L"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yR7-Yl-J0b">
+                                        <color key="backgroundColor" red="0.1269993579" green="0.56450149780000003" blue="0.89074770940000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="yR7-Yl-J0b" secondAttribute="height" multiplier="1:1" id="52Y-SX-Lwe"/>
+                                        </constraints>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <state key="normal" backgroundImage="Archer.png">
+                                            <color key="titleColor" red="0.053861610591411591" green="0.89163738489151001" blue="0.90268021821975708" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <state key="disabled" image="dead.gif"/>
+                                        <connections>
+                                            <action selector="blueButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UET-wR-puW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" alpha="0.80000000000000004" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDt-GB-Icv">
+                                        <color key="backgroundColor" red="1" green="0.4748377963" blue="0.57550577209999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="wDt-GB-Icv" secondAttribute="height" multiplier="1:1" id="xhh-GB-N5w"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.76472513090000005" green="0.28884497650000002" blue="0.68297156699999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" backgroundImage="Arch_Mage.png">
+                                            <color key="titleColor" red="1" green="0.2523624008" blue="0.24552360910000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="redButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CmR-1n-rJb"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="yR7-Yl-J0b" firstAttribute="width" secondItem="ZgK-aA-RYc" secondAttribute="height" multiplier="43:229" id="1Wf-II-RGV"/>
+                                    <constraint firstAttribute="trailing" secondItem="LBP-ZE-B7m" secondAttribute="trailing" constant="20" id="21e-CC-9GM"/>
+                                    <constraint firstItem="wDt-GB-Icv" firstAttribute="width" secondItem="ZgK-aA-RYc" secondAttribute="height" multiplier="43:229" id="22p-Wf-EVS"/>
+                                    <constraint firstItem="fo6-V9-z9V" firstAttribute="leading" secondItem="ZgK-aA-RYc" secondAttribute="leading" constant="20" id="7Nf-pD-JQn"/>
+                                    <constraint firstItem="fo6-V9-z9V" firstAttribute="width" secondItem="ZgK-aA-RYc" secondAttribute="height" multiplier="43:229" id="9Yg-d1-0Qv"/>
+                                    <constraint firstItem="LBP-ZE-B7m" firstAttribute="top" secondItem="ZgK-aA-RYc" secondAttribute="top" constant="20" id="Kfm-cx-4YO"/>
+                                    <constraint firstItem="wDt-GB-Icv" firstAttribute="leading" secondItem="ZgK-aA-RYc" secondAttribute="leading" constant="20" id="O3t-p9-m6N"/>
+                                    <constraint firstItem="Y59-8q-Ted" firstAttribute="centerY" secondItem="ZgK-aA-RYc" secondAttribute="centerY" id="Zgb-NX-K4G"/>
+                                    <constraint firstAttribute="trailing" secondItem="Y59-8q-Ted" secondAttribute="trailing" constant="20" id="ewQ-Jc-HGV"/>
+                                    <constraint firstItem="JGI-Z6-yQ2" firstAttribute="centerY" secondItem="ZgK-aA-RYc" secondAttribute="centerY" id="f1M-gz-e8T"/>
+                                    <constraint firstItem="fo6-V9-z9V" firstAttribute="top" secondItem="ZgK-aA-RYc" secondAttribute="top" constant="20" id="jFv-Se-2CH"/>
+                                    <constraint firstAttribute="bottom" secondItem="wDt-GB-Icv" secondAttribute="bottom" constant="20" id="kvL-eu-WQS"/>
+                                    <constraint firstAttribute="trailing" secondItem="yR7-Yl-J0b" secondAttribute="trailing" constant="20" id="l63-uk-Jrb"/>
+                                    <constraint firstItem="Beh-Z2-IXw" firstAttribute="centerY" secondItem="ZgK-aA-RYc" secondAttribute="centerY" id="lJg-Lg-fcG"/>
+                                    <constraint firstAttribute="bottom" secondItem="yR7-Yl-J0b" secondAttribute="bottom" constant="20" id="oS2-Zk-Srg"/>
+                                    <constraint firstItem="JGI-Z6-yQ2" firstAttribute="centerX" secondItem="ZgK-aA-RYc" secondAttribute="centerX" id="oZC-Dr-GgE"/>
+                                    <constraint firstItem="Y59-8q-Ted" firstAttribute="width" secondItem="ZgK-aA-RYc" secondAttribute="height" multiplier="43:229" id="q9p-Uw-Laf"/>
+                                    <constraint firstItem="Beh-Z2-IXw" firstAttribute="leading" secondItem="ZgK-aA-RYc" secondAttribute="leading" constant="20" id="uVg-fK-NWb"/>
+                                    <constraint firstItem="Beh-Z2-IXw" firstAttribute="width" secondItem="ZgK-aA-RYc" secondAttribute="height" multiplier="43:229" id="vJU-BC-9iD"/>
+                                    <constraint firstItem="LBP-ZE-B7m" firstAttribute="width" secondItem="ZgK-aA-RYc" secondAttribute="height" multiplier="43:229" id="yEi-4H-Vcu"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7Ih-la-DIy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="0uw-mt-W5W"/>
+                            <constraint firstItem="ZgK-aA-RYc" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="456:732" id="6XB-9z-ebs"/>
+                            <constraint firstItem="ZgK-aA-RYc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Nts-KY-HoD"/>
+                            <constraint firstItem="ZgK-aA-RYc" firstAttribute="top" relation="greaterThanOrEqual" secondItem="7Ih-la-DIy" secondAttribute="bottom" id="Tc8-JJ-wD8"/>
+                            <constraint firstItem="7Ih-la-DIy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="YWU-ea-a3r"/>
+                            <constraint firstItem="ZgK-aA-RYc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" priority="750" id="iYb-qP-1TR"/>
+                            <constraint firstAttribute="trailing" secondItem="ZgK-aA-RYc" secondAttribute="trailing" id="o4p-5C-2b0"/>
+                            <constraint firstAttribute="trailing" secondItem="7Ih-la-DIy" secondAttribute="trailing" id="oHU-Sl-D7F"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="taz-Jy-Z9f"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="628" y="130.88455772113943"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="AC3L_-_Warrior.png" width="398" height="610"/>
+        <image name="Arch_Mage.png" width="349" height="483"/>
+        <image name="Archer.png" width="190" height="190"/>
+        <image name="dead.gif" width="250" height="250"/>
+    </resources>
 </document>
