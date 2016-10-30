@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VCFight.h"
 
 @interface ViewController : UIViewController
 
