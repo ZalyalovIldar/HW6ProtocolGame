@@ -17,10 +17,6 @@
 		99CA79D71DC138B5003602D3 /* Ildar.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CA79D61DC138B5003602D3 /* Ildar.m */; };
 		99CA79DB1DC20630003602D3 /* Lenar.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CA79DA1DC20630003602D3 /* Lenar.m */; };
 		99CA79DE1DC20648003602D3 /* Ilyas.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CA79DD1DC20648003602D3 /* Ilyas.m */; };
-		99CA79E21DC322E2003602D3 /* PoLfTA7hElc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99CA79DF1DC322E2003602D3 /* PoLfTA7hElc.jpg */; };
-		99CA79E31DC322E2003602D3 /* Mm3MmPqyccY.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99CA79E01DC322E2003602D3 /* Mm3MmPqyccY.jpg */; };
-		99CA79E41DC322E2003602D3 /* _FhZGdVnjlU.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99CA79E11DC322E2003602D3 /* _FhZGdVnjlU.jpg */; };
-		99CA79E61DC335D2003602D3 /* Стальной_топор_(Skyrim).png in Resources */ = {isa = PBXBuildFile; fileRef = 99CA79E51DC335D2003602D3 /* Стальной_топор_(Skyrim).png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,10 +39,6 @@
 		99CA79DA1DC20630003602D3 /* Lenar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lenar.m; sourceTree = "<group>"; };
 		99CA79DC1DC20648003602D3 /* Ilyas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ilyas.h; sourceTree = "<group>"; };
 		99CA79DD1DC20648003602D3 /* Ilyas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ilyas.m; sourceTree = "<group>"; };
-		99CA79DF1DC322E2003602D3 /* PoLfTA7hElc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = PoLfTA7hElc.jpg; path = ../../../../../Users/iikhsn/Downloads/PoLfTA7hElc.jpg; sourceTree = "<group>"; };
-		99CA79E01DC322E2003602D3 /* Mm3MmPqyccY.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Mm3MmPqyccY.jpg; path = ../../../../../Users/iikhsn/Downloads/Mm3MmPqyccY.jpg; sourceTree = "<group>"; };
-		99CA79E11DC322E2003602D3 /* _FhZGdVnjlU.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = _FhZGdVnjlU.jpg; path = ../../../../../Users/iikhsn/Downloads/_FhZGdVnjlU.jpg; sourceTree = "<group>"; };
-		99CA79E51DC335D2003602D3 /* Стальной_топор_(Skyrim).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Стальной_топор_(Skyrim).png"; path = "../../../../../Users/iikhsn/Desktop/Стальной_топор_(Skyrim).png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +81,6 @@
 		7C3F32B71DBD57A70094CB59 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				99CA79E51DC335D2003602D3 /* Стальной_топор_(Skyrim).png */,
-				99CA79DF1DC322E2003602D3 /* PoLfTA7hElc.jpg */,
-				99CA79E01DC322E2003602D3 /* Mm3MmPqyccY.jpg */,
-				99CA79E11DC322E2003602D3 /* _FhZGdVnjlU.jpg */,
 				7C3F32BA1DBD57A70094CB59 /* AppDelegate.h */,
 				7C3F32BB1DBD57A70094CB59 /* AppDelegate.m */,
 				7C3F32C31DBD57A70094CB59 /* Assets.xcassets */,
@@ -188,12 +176,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C3F32C71DBD57A70094CB59 /* LaunchScreen.storyboard in Resources */,
-				99CA79E31DC322E2003602D3 /* Mm3MmPqyccY.jpg in Resources */,
 				7C3F32C41DBD57A70094CB59 /* Assets.xcassets in Resources */,
-				99CA79E41DC322E2003602D3 /* _FhZGdVnjlU.jpg in Resources */,
-				99CA79E61DC335D2003602D3 /* Стальной_топор_(Skyrim).png in Resources */,
 				7C3F32C21DBD57A70094CB59 /* Main.storyboard in Resources */,
-				99CA79E21DC322E2003602D3 /* PoLfTA7hElc.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

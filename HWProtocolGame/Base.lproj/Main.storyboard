@@ -18,19 +18,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mm3MmPqyccY.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0DS-PO-9hv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mm3MmPqyccY" translatesAutoresizingMaskIntoConstraints="NO" id="0DS-PO-9hv">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="98" id="ExY-5h-VWz"/>
                                     <constraint firstAttribute="width" constant="98" id="qDL-OJ-y99"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PoLfTA7hElc.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NtN-Qj-Pnc">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PoLfTA7hElc" translatesAutoresizingMaskIntoConstraints="NO" id="NtN-Qj-Pnc">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="98" id="JCP-bQ-vSo"/>
                                     <constraint firstAttribute="width" constant="98" id="hYk-A8-cE3"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="_FhZGdVnjlU.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dRn-mq-WtP">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="_FhZGdVnjlU" translatesAutoresizingMaskIntoConstraints="NO" id="dRn-mq-WtP">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="98" id="CjV-Pe-0sN"/>
                                     <constraint firstAttribute="height" constant="98" id="k3y-cv-jQp"/>
@@ -41,19 +41,19 @@
                                     <action selector="firstUnitAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="QFv-EK-89B"/>
                                 </connections>
                             </slider>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mm3MmPqyccY.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wqK-c1-8oN">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mm3MmPqyccY" translatesAutoresizingMaskIntoConstraints="NO" id="wqK-c1-8oN">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="98" id="QWc-PE-gWq"/>
                                     <constraint firstAttribute="height" constant="98" id="TCa-mI-5NS"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PoLfTA7hElc.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="50e-9u-e9a">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PoLfTA7hElc" translatesAutoresizingMaskIntoConstraints="NO" id="50e-9u-e9a">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="98" id="KPw-fM-A2S"/>
                                     <constraint firstAttribute="width" constant="98" id="etH-fs-kHn"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="_FhZGdVnjlU.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Az0-Ys-i7m">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="_FhZGdVnjlU" translatesAutoresizingMaskIntoConstraints="NO" id="Az0-Ys-i7m">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="98" id="TFD-l5-yzY"/>
                                     <constraint firstAttribute="width" constant="98" id="WiM-kD-UG5"/>
@@ -69,7 +69,7 @@
                                     <constraint firstAttribute="height" constant="90" id="BNH-ay-Elf"/>
                                     <constraint firstAttribute="width" constant="100" id="xSY-6U-jy0"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="Стальной_топор_(Skyrim).png"/>
+                                <state key="normal" title="Button" image="Стальной_топор_(Skyrim)"/>
                                 <connections>
                                     <segue destination="HII-Nq-aq3" kind="modal" id="FOf-zP-Zlg"/>
                                 </connections>
@@ -161,9 +161,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Mm3MmPqyccY.jpg" width="1080" height="720"/>
-        <image name="PoLfTA7hElc.jpg" width="1632" height="1224"/>
-        <image name="_FhZGdVnjlU.jpg" width="479" height="480"/>
-        <image name="Стальной_топор_(Skyrim).png" width="480" height="480"/>
+        <image name="Mm3MmPqyccY" width="1080" height="720"/>
+        <image name="PoLfTA7hElc" width="1632" height="1224"/>
+        <image name="_FhZGdVnjlU" width="479" height="480"/>
+        <image name="Стальной_топор_(Skyrim)" width="480" height="480"/>
     </resources>
 </document>
