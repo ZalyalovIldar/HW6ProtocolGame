@@ -19,6 +19,7 @@
 -(void)attackTo:(id)unit;
 
 
+
 @optional
 @property (nonatomic) BOOL codeMaster; //On or off
 

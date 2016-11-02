@@ -13,12 +13,7 @@
 
 @interface PlayVC : UIViewController
 
-@property (strong, nonatomic) Lenar *lenar;
-@property (strong, nonatomic) Ildar *ildar;
-@property (strong, nonatomic) Ilyas *ilyas;
-
-@property (strong, nonatomic) Lenar *lenar2;
-@property (strong, nonatomic) Ildar *ildar2;
-@property (strong, nonatomic) Ilyas *ilyas2;
+@property (strong, nonatomic) id atackFrom;
+@property (strong, nonatomic) id atackTo;
 
 @end

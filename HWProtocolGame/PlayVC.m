@@ -40,156 +40,19 @@
      *
      *..объявить все nil после завершения битвы
      */
+    [_atackTo attackTo:_atackFrom];
+    [_atackFrom attackTo:_atackFrom];
     
-    if (_lenar != nil) {
-        if (_ildar2 != nil) {
-            [_lenar attackTo:_ildar2];
-            [_ildar2 attackTo:_lenar];
-            if (_lenar.health == 0) {
-                finalAlertMessege = [NSString stringWithFormat:@"%@ выйграл!", _ildar2.name];
-                [self reinintWithGameOverAlert:finalAlertMessege];
-            }else{
-                finalAlertMessege = [NSString stringWithFormat:@"%@ \nHealth: %i \nArmor: %i \n %@ \nHealth: %i \nArmor: %i", _lenar.name, _lenar.health, _lenar.armor, _ildar2.name, _ildar2.health, _ildar2.armor];
-            }
-            if (_ildar2.health == 0) {
-                finalAlertMessege = [NSString stringWithFormat:@"%@ выйграл!",_lenar.name];
-                [self reinintWithGameOverAlert:finalAlertMessege];
-            }else{
-                finalAlertMessege = [NSString stringWithFormat:@"%@ \nHealth: %i \nArmor: %i \n %@ \nHealth: %i \nArmor: %i", _lenar.name, _lenar.health, _lenar.armor, _ildar2.name, _ildar2.health, _ildar2.armor];
-            }
-            
-        }
-        if (_ilyas2 != nil) {
-            [_lenar attackTo:_ilyas2];
-            [_ilyas2 attackTo:_lenar];
-            if(_ilyas2.health == 0){
-                finalAlertMessege = [NSString stringWithFormat:@"%@ выйграл!", _lenar.name];
-                [self reinintWithGameOverAlert:finalAlertMessege];
-            }else{
-                finalAlertMessege = [NSString stringWithFormat:@"%@ \nHealth: %i \nArmor: %i \n %@ \nHealth: %i \nArmor: %i", _lenar.name, _lenar.health, _lenar.armor, _ilyas2.name, _ilyas2.health, _ilyas2.armor];
-            }
-            if (_lenar.health == 0){
-                finalAlertMessege = [NSString stringWithFormat:@"%@ выйграл!", _lenar.name];
-                [self reinintWithGameOverAlert:finalAlertMessege];
-            }else{
-            finalAlertMessege = [NSString stringWithFormat:@"%@ \nHealth: %i \nArmor: %i \n %@ \nHealth: %i \nArmor: %i", _lenar.name, _lenar.health, _lenar.armor, _ilyas2.name, _ilyas2.health, _ilyas2.armor];
-            }
-        }
-        if (_lenar2 != nil) {
-            [_lenar attackTo:_lenar2];
-            [_lenar2 attackTo:_lenar];
-            if (_lenar.health == 0) {
-                finalAlertMessege = [NSString stringWithFormat:@"%@ выйграл!", _lenar2.name];
-                [self reinintWithGameOverAlert:finalAlertMessege];
-            }else{
-                finalAlertMessege = [NSString stringWithFormat:@"%@ \nHealth: %i \nArmor: %i \n %@ \nHealth: %i \nArmor: %i", _lenar.name, _lenar.health, _lenar.armor, _lenar2.name, _lenar2.health, _lenar2.armor];}
-            if (_lenar2.health == 0) {
-                finalAlertMessege = [NSString stringWithFormat:@"%@ выйграл!", _lenar.name];
-                [self reinintWithGameOverAlert:finalAlertMessege];
-            }else{
-                finalAlertMessege = [NSString stringWithFormat:@"%@ \nHealth: %i \nArmor: %i \n %@ \nHealth: %i \nArmor: %i", _lenar.name, _lenar.health, _lenar.armor, _lenar2.name, _lenar2.health, _lenar2.armor];
-            }
-        }
+    if ([_atackTo health] == 0) {
+        finalAlertMessege = [NSString stringWithFormat:@"%@ выйграл!", [_atackFrom name]];
+        [self reinintWithGameOverAlert:finalAlertMessege];
     }
-    if (_ildar != nil) {
-        if (_ildar2 != nil) {
-            [_ildar attackTo:_ildar2];
-            [_ildar2 attackTo:_ildar];
-            if (_ildar.health == 0) {
-                finalAlertMessege = [NSString stringWithFormat:@"%@ выйграл!", _ildar2.name];
-                [self reinintWithGameOverAlert:finalAlertMessege];
-            }else{
-                finalAlertMessege = [NSString stringWithFormat:@"%@ \nHealth: %i \nArmor: %i \n %@ \nHealth: %i \nArmor: %i", _ildar.name, _ildar.health, _ildar.armor, _ildar2.name, _ildar2.health, _ildar2.armor];}
-            if (_ildar2.health == 0) {
-                finalAlertMessege = [NSString stringWithFormat:@"%@ выйграл!", _ildar.name];
-                [self reinintWithGameOverAlert:finalAlertMessege];
-            }else{
-                finalAlertMessege = [NSString stringWithFormat:@"%@ \nHealth: %i \nArmor: %i \n %@ \nHealth: %i \nArmor: %i", _ildar.name, _ildar.health, _ildar.armor, _ildar2.name, _ildar2.health, _ildar2.armor];
-            }
-        }
-        if (_ilyas2 != nil) {
-            [_ildar attackTo:_ilyas2];
-            [_ilyas2 attackTo:_ildar];
-            if (_ildar.health == 0) {
-                finalAlertMessege = [NSString stringWithFormat:@"%@ выйграл!", _ilyas2.name];
-                [self reinintWithGameOverAlert:finalAlertMessege];
-            }else{
-            finalAlertMessege = [NSString stringWithFormat:@"%@ \nHealth: %i \nArmor: %i \n %@ \nHealth: %i \nArmor: %i", _ildar.name, _ildar.health, _ildar.armor, _ilyas2.name, _ilyas2.health, _ilyas2.armor];
-            }
-            if (_ilyas2 == 0) {
-                finalAlertMessege = [NSString stringWithFormat:@"%@ выйграл!", _ildar.name];
-                [self reinintWithGameOverAlert:finalAlertMessege];
-            }else{
-                finalAlertMessege = [NSString stringWithFormat:@"%@ \nHealth: %i \nArmor: %i \n %@ \nHealth: %i \nArmor: %i", _ildar.name, _ildar.health, _ildar.armor, _ilyas2.name, _ilyas2.health, _ilyas2.armor];
-            }
-        }
-        if (_lenar2 != nil) {
-            [_ildar attackTo:_lenar2];
-            [_lenar2 attackTo:_ildar];
-            if (_ildar.health == 0) {
-                finalAlertMessege = [NSString stringWithFormat:@"%@ выйграл!", _lenar2.name];
-                [self reinintWithGameOverAlert:finalAlertMessege];
-            }else{
-                finalAlertMessege = [NSString stringWithFormat:@"%@ \nHealth: %i \nArmor: %i \n %@ \nHealth: %i \nArmor: %i", _ildar.name, _ildar.health, _ildar.armor, _lenar2.name, _lenar2.health, _lenar2.armor];
-            }
-            if (_lenar2.health == 0) {
-                finalAlertMessege = [NSString stringWithFormat:@"%@ выйграл!", _ildar.name];
-                [self reinintWithGameOverAlert:finalAlertMessege];
-            }else{
-                finalAlertMessege = [NSString stringWithFormat:@"%@ \nHealth: %i \nArmor: %i \n %@ \nHealth: %i \nArmor: %i", _ildar.name, _ildar.health, _ildar.armor, _lenar2.name, _lenar2.health, _lenar2.armor];
-            }
-        }
+    if ([_atackFrom health] == 0) {
+        finalAlertMessege = [NSString stringWithFormat:@"%@ выйграл!", [_atackTo name]];
+        [self reinintWithGameOverAlert:finalAlertMessege];
     }
-    if (_ilyas != nil) {
-        if (_ildar2 != nil) {
-            [_ilyas attackTo:_ildar2];
-            [_ildar2 attackTo:_ilyas];
-            if (_ilyas == 0) {
-                finalAlertMessege = [NSString stringWithFormat:@"%@ выйграл!", _ildar2.name];
-                [self reinintWithGameOverAlert:finalAlertMessege];
-            }else{
-            finalAlertMessege = [NSString stringWithFormat:@"%@ \nHealth: %i \nArmor: %i \n %@ \nHealth: %i \nArmor: %i", _ilyas.name, _ilyas.health, _ilyas.armor, _ildar2.name, _ildar2.health, _ildar2.armor];
-            }
-            if (_ildar2.health == 0) {
-                finalAlertMessege = [NSString stringWithFormat:@"%@ выйграл!", _ilyas.name];
-                [self reinintWithGameOverAlert:finalAlertMessege];
-            }else{
-                finalAlertMessege = [NSString stringWithFormat:@"%@ \nHealth: %i \nArmor: %i \n %@ \nHealth: %i \nArmor: %i", _ilyas.name, _ilyas.health, _ilyas.armor, _ildar2.name, _ildar2.health, _ildar2.armor];
-            }
-        }
-        if (_ilyas2 != nil) {
-            [_ilyas attackTo:_ilyas2];
-            [_ilyas2 attackTo:_ilyas];
-            if (_ilyas.health == 0) {
-                finalAlertMessege = [NSString stringWithFormat:@"%@ выйграл!", _ilyas2.name];
-                [self reinintWithGameOverAlert:finalAlertMessege];
-            }else{
-            finalAlertMessege = [NSString stringWithFormat:@"%@ \nHealth: %i \nArmor: %i \n %@ \nHealth: %i \nArmor: %i", _ilyas.name, _ilyas.health, _ilyas.armor, _ilyas2.name, _ilyas2.health, _ilyas2.armor];
-            }
-            if (_ilyas2.health == 0) {
-                finalAlertMessege = [NSString stringWithFormat:@"%@ выйграл!", _ilyas.name];
-                [self reinintWithGameOverAlert:finalAlertMessege];
-            }else{
-                finalAlertMessege = [NSString stringWithFormat:@"%@ \nHealth: %i \nArmor: %i \n %@ \nHealth: %i \nArmor: %i", _ilyas.name, _ilyas.health, _ilyas.armor, _ilyas2.name, _ilyas2.health, _ilyas2.armor];
-            }
-        }
-        if (_lenar2 != nil) {
-            [_ilyas attackTo:_lenar2];
-            [_lenar2 attackTo:_ilyas];
-            if (_ilyas.health == 0) {
-                finalAlertMessege = [NSString stringWithFormat:@"%@ выйграл!", _lenar2.name];
-                [self reinintWithGameOverAlert:finalAlertMessege];
-            }else{
-            finalAlertMessege = [NSString stringWithFormat:@"%@ \nHealth: %i \nArmor: %i \n %@ \nHealth: %i \nArmor: %i", _ilyas.name, _ilyas.health, _ilyas.armor, _lenar2.name, _lenar2.health, _lenar2.armor];
-            }
-            if (_lenar2.health == 0) {
-                finalAlertMessege = [NSString stringWithFormat:@"%@ выйграл!", _ilyas.name];
-                [self reinintWithGameOverAlert:finalAlertMessege];
-            }else{
-                finalAlertMessege = [NSString stringWithFormat:@"%@ \nHealth: %i \nArmor: %i \n %@ \nHealth: %i \nArmor: %i", _ilyas.name, _ilyas.health, _ilyas.armor, _lenar2.name, _lenar2.health, _lenar2.armor];
-            }
-        }
-    }
+    finalAlertMessege = [NSString stringWithFormat:@"%@ \nHealth: %i \nArmor: %i \n %@ \nHealth: %i \nArmor: %i", [_atackFrom name], [_atackFrom health], [_atackFrom armor], [_atackTo name], [_atackTo health], [_atackTo armor]];
+
 #pragma mark - Alert
     UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Статистика игры" message:finalAlertMessege preferredStyle:UIAlertControllerStyleAlert];
     
@@ -200,25 +63,23 @@
 }
 
 - (IBAction)gameOver:(id)sender {
-    [self reinit];
+    [self clearGame];
 }
 
 
--(void)reinit{
-    _ilyas = nil;
-    _ildar = nil;
-    _lenar = nil;
-    
-    _ilyas2 = nil;
-    _ildar2 = nil;
-    _lenar2 = nil;
+-(void)clearGame{
+    _atackTo = nil;
+    _atackFrom = nil;
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 -(void)reinintWithGameOverAlert:(NSString *)massage{
     UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Игра окончена" message:massage preferredStyle:UIAlertControllerStyleAlert];
     
     UIAlertAction* resultAlert = [UIAlertAction actionWithTitle:@"Начать заново" style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
-        [self reinit];
+        _atackTo = nil;
+        _atackFrom = nil;
+        [self dismissViewControllerAnimated:YES completion:nil];
+        //а этот self получается тоже нельзя?
     }];
     
     [alert addAction:resultAlert];

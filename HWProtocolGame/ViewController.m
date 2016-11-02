@@ -26,67 +26,50 @@
 }
 
 
-- (IBAction)firstUnitAction:(id)sender {
-//    if (_firstUnit.value < 0.6) {
-//        _secondUnit.value = 1;
-//    }else{
-//        if ((_firstUnit.value > 0.6) && (_firstUnit.value < 1.4) && (_firstUnit.value = 0.6) && (_firstUnit.value = 1.4)) {
-//            _secondUnit.value = 0;
-//        }else{
-//            if (_firstUnit.value > 1.4) {
-//                _secondUnit.value = 0;
-//            }
-//        }
-//    }
-}
-
-- (IBAction)secondUnitAction:(id)sender {
-    
-}
-
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
         PlayVC *playVC = segue.destinationViewController;
-        //secondViewController.delegate = self;
-    if (_firstUnit.value < 0.6) {
-        playVC.lenar = [[Lenar alloc]initLenarWithParametr];
-    }
-    if ((_firstUnit.value >= 0.6) && (_firstUnit.value <= 1.4)) {
-        playVC.ilyas = [[Ilyas alloc]initIlyasWithParametr];
-    }
-    if (_firstUnit.value > 1.4){
-        playVC.ildar = [[Ildar alloc]initIldarWithParametr];
+    float valueFloat = _firstUnit.value;
+    int valueInt = (int) valueFloat;
+    
+    switch (valueInt) {
+        case 0:
+            playVC.atackFrom = [[Lenar alloc]initLenarWithParametr];
+            break;
+        case 1:
+            playVC.atackFrom = [[Ilyas alloc]initIlyasWithParametr];
+            break;
+        case 2:
+            playVC.atackFrom = [[Ildar alloc]initIldarWithParametr];
+            break;
+            
+        default:
+            break;
     }
     
+    valueFloat = _secondUnit.value;
+    valueInt = (int) valueFloat;
     
-    if (_secondUnit.value < 0.6) {
-        if (_firstUnit.value < 0.6) {
-            playVC.lenar2 = [[Lenar alloc]initLenarWithOptionalParametr:@"Lenar master"];
-        }else{
-            playVC.lenar2 = [[Lenar alloc]initLenarWithParametr];
-        }
+    switch (valueInt) {
+        case 0:
+            playVC.atackTo = [[Lenar alloc]initLenarWithOptionalParametr:@"Lenar master"];
+            break;
+        case 1:
+            playVC.atackTo = [[Ilyas alloc]initLenarWithOptionalParametr:@"Ilyas bro"];
+            break;
+        case 2:
+            playVC.atackTo =[[Ildar alloc]initLenarWithOptionalParametr:@"Ildar 3 cours"];
+            break;
+            
+        default:
+            break;
     }
-    if ((_secondUnit.value >= 0.6) && (_secondUnit.value <= 1.4)) {
-        if ((_firstUnit.value >= 0.6) &&(_firstUnit.value <= 1.4)) {
-            playVC.ilyas2 = [[Ilyas alloc]initLenarWithOptionalParametr:@"Ilyas bro"];
-        }else{
-            playVC.ilyas2 = [[Ilyas alloc]initIlyasWithParametr];
-        }
-    }
-    if (_secondUnit.value > 1.4) {
-        if (_firstUnit.value > 1.4) {
-            playVC.ildar2 = [[Ildar alloc]initLenarWithOptionalParametr:@"Ildar 3 cours"];
-        }else{
-            playVC.ildar2 = [[Ildar alloc]initIldarWithParametr];
-        }
-    }
-
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 
 @end
